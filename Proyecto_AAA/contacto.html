@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        div>a {
+            color: #777777;
+            font-size: 16px;
+        }
+
+        div>h2 {
+            color: #02108c;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        section > div:nth-child(3) {
+            margin-top: 40px;
+            margin-bottom: 120px;
+        }
+
+        section > div:nth-child(3) >div {
+            margin: 0px 30px 20px;
+        }
+
+        .qSectionCenter {
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+    </style>
+    <title>ProjectCSS</title>
+</head>
+
+<body>
+    <header>
+        <div id="divHeadTop">
+            <div id="fixTextoTop">
+                <div id="textoTop">
+                    <div id="headTexto">Welcome Construction Company </div>
+                </div>
+            </div>
+            <div id="grisTop"></div>
+            <div id="blancoTop"></div>
+        </div>
+        <div id="headLogoNav">
+
+            <div id="logoIcono">
+
+                <div id="headLogo"><img src="img/logo.png" id="imgLogo"></div>
+
+                <div id="headIconos">
+                    <div class="iconoContainer">
+                        <div>
+                            <img class="logo" src="img/tierra.png">
+                        </div>
+                        <div>
+                            <ul>
+                                <li><strong>25BT, San Rojartar,</strong></li>
+                                <li>New York, United States</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="iconoContainer">
+                        <div>
+                            <img class="logo" src="img/mail.png">
+                        </div>
+                        <div>
+                            <ul>
+                                <li><strong>Send Your Email At</strong></li>
+                                <li>Info@example.com</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="iconoContainer" id="iconoHidden">
+                        <div>
+                            <img class="logo" src="img/reloj.jpg">
+                        </div>
+                        <div>
+                            <ul>
+                                <li><strong>Working Hours</strong></li>
+                                <li>Mon-Sat:9.30am To 7.00pm</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAV -->
+    <nav>
+        <ul id="ulMenu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="hide">
+            <i class="fa fa-bars"></i> Menu
+        </div>
+    </nav>
+
+    <!-- MAAAIN -->
+    <main>
+        <section>
+
+            <div class="qSectionCenter">
+                <div id="qSectionTitle">
+                    <div class="tituloGris">Contact Us</div>
+                    <h1 class="hNegro">Our Information</h1>
+                </div>
+            </div>
+
+            <div class="qSectionCenter">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3078.8623316017165!2d-0.47259248439009766!3d39.495023119099585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd605a9838ec8b9d%3A0xdcfeafeb8fa4e851!2sIES%20Jos%C3%A9%20Rodrigo%20Botet!5e0!3m2!1ses!2ses!4v1644111171117!5m2!1ses!2ses"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <div class="qSectionCenter">
+                <div>
+                    <img src="img/contact-1.png" alt="icono telefono">
+                    <h2>Mail us for information</h2>
+                    <a href="#">info@example.com</a>
+                </div>
+                <div>
+                    <img src="img/contact-2.png" alt="icono contacto">
+                    <h2>Working hours</h2>
+                    <a href="#">Mon-Sat: 9.30 am To 7.00pm</a>
+                </div>
+                <div>
+                    <img src="img/contact-3.png" alt="icono horario">
+                    <h2>Call for help</h2>
+                    <a href="#">(734) 697 2907, (843) 971-1906</a>
+                </div>
+                
+                <div>
+                    <img src="img/contact-4.png" alt="icono direccion">
+                    <h2>Address</h2>
+                    <a href="#">25BT, San Rojartar, New York</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- FOOTEEER -->
+    <footer>
+        <div>
+            <div id="footerContent">
+                <div id="footerLogo">
+                    <div id="footerImg"><img src="img/logoBlanco.png" id="imgLogo"></div>
+                    <p>Manzil is an exclusive multi-purpose 100% responsive Template Theme with powerful features.</p>
+                    <p>Simple and well-structured coding, high quality and flexible layout, scalable features along with
+                        color schemes to create tailor-cut websites.</p>
+                    <div id="footerRedes">
+                        <ul id="ulFooter">
+                            <li><a href="https://es-es.facebook.com/"><img src="img/icon-facebook.png"
+                                        alt="facebook"></a>
+                            </li>
+                            <li><a href="https://es.linkedin.com/"><img src="img/icon-linkedin.png" alt="linkedin"></a>
+                            </li>
+                            <li><a href="https://twitter.com/"><img src="img/icon-twitter.png" alt="twitter"></a></li>
+                            <li><a href="https://www.skype.com/es/"><img src="img/icon-skype.png" alt="skype"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="footerLinks">
+                    <h1>Useful Links</h1>
+                    <ul id="ulLinks">
+                        <li><a href="">-- About Us</a></li>
+                        <li><a href="">-- Faq's</a></li>
+                        <li><a href="">-- Our Team</a></li>
+                        <li><a href="">-- Services</a></li>
+                        <li><a href="">-- Testimonial</a></li>
+                        <li><a href="">-- Blog Classic</a></li>
+                        <li><a href="">-- Interior Design</a></li>
+                        <li><a href="">-- Price</a></li>
+                        <li><a href="">-- Team Detail</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div id="footerContact">
+                        <h1>Contact Us</h1>
+                        <div id="footerContactDiv">
+                            <ul>
+                                <li>
+                                    <img src="img/globe-4-48.png">
+                                    <span class="arriba"><strong>25BT, San Rojartar</strong></span>
+                                    <span class="abajo">New York, United States</span>
+                                </li>
+
+                                <li>
+                                    <img src="img/email-48.png">
+                                    <span class="arriba"><strong>Send Your Mail At</strong></span>
+                                    <span class="abajo">info@example.com</span>
+                                </li>
+
+                                <li>
+                                    <img src="img/clock-5-48.png">
+                                    <span class="arriba"><strong>Working Hours</strong></span>
+                                    <span class="abajo">Mon-Sat:9.30am To 7:00pm</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footerCopy">
+                <span id="spanLeft">&copy All rights reserver by <strong>ivanM</strong></span>
+                <span id="spanRight">
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy & Policy</a></li>
+                        <li><a href="#">Join Us</a></li>
+                        <li><a href="#">Need Help?</a></li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        let ulMenu = document.querySelector('#ulMenu');
+
+        $(".hide").on('click', function () {
+            $("nav ul").toggle('slow');
+        })
+
+
+        window.addEventListener("resize", function (event) {
+
+            var anchoVentana = window.innerWidth;
+
+            if (anchoVentana > 768) {
+                let ulMenu = document.querySelector('#ulMenu');
+                ulMenu.style.display = '';
+
+
+            }
+
+        })
+    </script>
+</body>
+
+</html>

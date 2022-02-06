@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Noticia</title>
+    <style>
+        h1 {
+            margin-top: 30px;
+        }
+
+        audio {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        iframe {
+            width: 80%;
+            height: 70%;
+            margin: 0px 20px 130px;
+            max-width: 1280px;
+        }
+
+        video{
+            max-width: 80%;
+            margin-bottom: 40px;
+        }
+
+        #frameYoutube {
+            width: 100%;
+            height: 720px
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="divHeadTop">
+            <div id="fixTextoTop">
+                <div id="textoTop">
+                    <div id="headTexto">Welcome Construction Company </div>
+                </div>
+            </div>
+            <div id="grisTop"></div>
+            <div id="blancoTop"></div>
+        </div>
+        <div id="headLogoNav">
+
+            <div id="logoIcono">
+
+                <div id="headLogo"><img src="img/logo.png" id="imgLogo"></div>
+
+                <div id="headIconos">
+                    <div class="iconoContainer">
+                        <div>
+                            <img class="logo" src="img/tierra.png">
+                        </div>
+                        <div>
+                            <ul>
+                                <li><strong>25BT, San Rojartar,</strong></li>
+                                <li>New York, United States</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="iconoContainer">
+                        <div>
+                            <img class="logo" src="img/mail.png">
+                        </div>
+                        <div>
+                            <ul>
+                                <li><strong>Send Your Email At</strong></li>
+                                <li>Info@example.com</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="iconoContainer" id="iconoHidden">
+                        <div>
+                            <img class="logo" src="img/reloj.jpg">
+                        </div>
+                        <div>
+                            <ul>
+                                <li><strong>Working Hours</strong></li>
+                                <li>Mon-Sat:9.30am To 7.00pm</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAV -->
+    <nav>
+        <ul id="ulMenu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="hide">
+            <i class="fa fa-bars"></i> Menu
+        </div>
+    </nav>
+
+    <!-- MAAAIN -->
+    <main>
+        <section id="multimediaSection">
+            <div class="qSectionCenter">
+                <h1 class="hNegro">Inserción Audio y Vídeo</h1>
+            </div>
+            <div class="qSectionCenter">
+                <audio controls>
+                    <source src="src/audio.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="qSectionCenter" alt="video estructuras">
+                <video controls>
+                    <source src="src/ProyectoVideo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="qSectionCenter" id="frameYoutube" alt="video youtube">
+                <iframe src="https://www.youtube.com/embed/m5dNTO512XE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- FOOTEEER -->
+    <footer>
+        <div>
+            <div id="footerContent">
+                <div id="footerLogo">
+                    <div id="footerImg"><img src="img/LogoSmall1.png" id="imgLogo" alt="Logo Corporativo"></div>
+                    <p>Manzil is an exclusive multi-purpose 100% responsive Template Theme with powerful features.</p>
+                    <p>Simple and well-structured coding, high quality and flexible layout, scalable features along with
+                        color schemes to create tailor-cut websites.</p>
+                    <div id="footerRedes">
+                        <ul id="ulFooter">
+                            <li><a href="https://es-es.facebook.com/"><img src="img/icon-facebook.png"
+                                        alt="facebook"></a>
+                            </li>
+                            <li><a href="https://es.linkedin.com/"><img src="img/icon-linkedin.png" alt="linkedin"></a>
+                            </li>
+                            <li><a href="https://twitter.com/"><img src="img/icon-twitter.png" alt="twitter"></a></li>
+                            <li><a href="https://www.skype.com/es/"><img src="img/icon-skype.png" alt="skype"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="footerLinks">
+                    <h1>Useful Links</h1>
+                    <ul id="ulLinks">
+                        <li><a href="">-- About Us</a></li>
+                        <li><a href="">-- Faq's</a></li>
+                        <li><a href="">-- Our Team</a></li>
+                        <li><a href="">-- Services</a></li>
+                        <li><a href="">-- Testimonial</a></li>
+                        <li><a href="">-- Blog Classic</a></li>
+                        <li><a href="">-- Interior Design</a></li>
+                        <li><a href="">-- Price</a></li>
+                        <li><a href="">-- Team Detail</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div id="footerContact">
+                        <h1>Noticia</h1>
+                        <div id="footerContactDiv">
+                            <ul>
+                                <li>
+                                    <img src="img/globe-4-48.png">
+                                    <span class="arriba"><strong>25BT, San Rojartar</strong></span>
+                                    <span class="abajo">New York, United States</span>
+                                </li>
+
+                                <li>
+                                    <img src="img/email-48.png">
+                                    <span class="arriba"><strong>Send Your Mail At</strong></span>
+                                    <span class="abajo">info@example.com</span>
+                                </li>
+
+                                <li>
+                                    <img src="img/clock-5-48.png">
+                                    <span class="arriba"><strong>Working Hours</strong></span>
+                                    <span class="abajo">Mon-Sat:9.30am To 7:00pm</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footerCopy">
+                <span id="spanLeft">&copy All rights reserver by <strong>ivanM</strong></span>
+                <span id="spanRight">
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy & Policy</a></li>
+                        <li><a href="#">Join Us</a></li>
+                        <li><a href="#">Need Help?</a></li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Animación menú desplegable -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        let ulMenu = document.querySelector('#ulMenu');
+
+        $(".hide").on('click', function () {
+            $("nav ul").toggle('slow');
+        })
+
+
+        window.addEventListener("resize", function (event) {
+
+            var anchoVentana = window.innerWidth;
+
+            if (anchoVentana > 768) {
+                let ulMenu = document.querySelector('#ulMenu');
+                ulMenu.style.display = '';
+
+
+            }
+
+        })
+    </script>
+</body>
+
+</html>
