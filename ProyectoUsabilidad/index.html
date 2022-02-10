@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ProjectCSS</title>
+</head>
+
+<body>
+    <header>
+        <div id="divHeadTop">
+            <div id="fixTextoTop">
+                <div id="textoTop">
+                    <div id="headTexto">Welcome Construction Company </div>
+                </div>
+            </div>
+            <div id="grisTop"></div>
+            <div id="blancoTop"></div>
+        </div>
+        <div id="headLogoNav">
+
+            <div id="logoIcono">
+
+                <div id="headLogo"><img src="img/logo.webp" id="imgLogo"></div>
+
+                <div id="headIconos">
+                    <div class="iconoContainer">
+                        <div>
+                            <img class="logo" src="img/tierra.webp">
+                        </div>
+                        <div>
+                            <ul>
+                                <li><strong>25BT, San Rojartar,</strong></li>
+                                <li>New York, United States</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="iconoContainer">
+                        <div>
+                            <img class="logo" src="img/mail.webp">
+                        </div>
+                        <div>
+                            <ul>
+                                <li><strong>Send Your Email At</strong></li>
+                                <li>Info@example.com</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="iconoContainer" id="iconoHidden">
+                        <div>
+                            <img class="logo" src="img/reloj.webp">
+                        </div>
+                        <div>
+                            <ul>
+                                <li><strong>Working Hours</strong></li>
+                                <li>Mon-Sat:9.30am To 7.00pm</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
+    <!-- NAV -->
+        <nav>
+            <ul id="ulMenu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="hide">
+                <i class="fa fa-bars"></i> Menu
+            </div>
+        </nav>
+
+    <!-- MAAAIN -->
+    <main>
+        <section id="firstSection">
+            <div id="fSectionContent">
+                <h1>Constraction Soluction</h1>
+                <span>Your Thought We Build</span>
+                <p>Manzil Construction Agency Is Proud To Provide Most Reliable Housing & Top Notch Construction Service
+                </p>
+                <button>Our Services</button>
+                <button>Join Us Now</button>
+            </div>
+            <div id="fSectionImg">
+                <img src="img/obrero.webp" alt="obrero profesional">
+            </div>
+        </section>
+
+        <div id="separador"></div>
+
+        <!-- SECOND SECTION -->
+        <section id="secondSection">
+            <div id="sSectionImg"><img src="img/about-1.webp"></div>
+
+            <div id="sSectionContent">
+                <div class="tituloGris">About Us</div>
+                <h1 class="hNegro">We Are The Leader In The Architectura!</h1>
+                <span id="sSectionSpan">36 Years Exprience Working</span>
+                <p>
+                    For each project we establish relationships with partners who we know will help us create added
+                    value for your project. As well as bringing together
+                    the public and private sectors, we make sector-overarching links to gather knowledge and to learn
+                    from each other who we know will help us create added value for your project.......
+                </p>
+                <div id="sSectionFirma">
+                    <a href="#">
+                        <span>More About</span>
+                    </a>
+                    <svg height="130" width="190">
+                        <defs>
+                            <linearGradient id="gradiente" x1="100%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="10%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#f7941d;;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#gradiente)" stroke="black"
+                            stroke-width="5" />
+                        <text fill="#ffffff" font-weight="800" font-size="48" font-family="OCR A Std, monospace" x="55"
+                            y="85">IMN</text>
+                    </svg>
+                </div>
+                <div id="sSectionIco">
+                    <div>
+                        <img src="img/icoCopa.webp">
+                        <div>150+</div>
+                        <div>Awards Winner</div>
+                    </div>
+                    <div>
+                        <img src="img/icoPersona.webp">
+                        <div>5021+</div>
+                        <div>Satisfied Clients</div>
+                    </div>
+                    <div>
+                        <img src="img/icoBombilla.webp">
+                        <div>201+</div>
+                        <div>Active Projects</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- THIRD SECTION -->
+        <section id="thirdSection">
+            <div id="tSectionFondo">
+                <div id="tSectionTitulo">
+                    <div class="tituloBlanco">Our Service</div>
+                    <h1 class="hBlanco">We Will Satisfy You By Our Servicing Plan</h1>
+                </div>
+                <div id="tSectionImagenes">
+
+                    <div class="tSectionImg">
+                        <div class="cajaOverlay">
+                            <img src="img/service-1.webp" alt="foto Arquitecto">
+                            <div class="overlay">
+                                <div><img src="img/bank-3-60.webp" alt="icono estructura"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod;</p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                        <a href="#">Property Sketching</a>
+                    </div>
+
+                    <div class="tSectionImg">
+                        <div class="cajaOverlay">
+                            <img src="img/service-2.webp" alt="foto Arquitecto">
+                            <div class="overlay">
+                                <div><img src="img/bank-3-60.webp" alt="icono estructura"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod;</p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                        <a href="#">Interior Designing</a>
+                    </div>
+
+                    <div class="tSectionImg">
+                        <div class="cajaOverlay">
+                            <img src="img/service-3.webp" alt="foto Arquitecto">
+                            <div class="overlay">
+                                <div><img src="img/bank-3-60.webp" alt="icono estructura"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod;</p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                        <a href="#">Exterior Design</a>
+                    </div>
+
+                    <div class="tSectionImg">
+                        <div class="cajaOverlay">
+                            <img src="img/service-4.webp" alt="foto Arquitecto">
+                            <div class="overlay">
+                                <div><img src="img/bank-3-60.webp" alt="icono estructura"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod;</p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                        <a href="#">Plan Estimations</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOURTH SECTION -->
+        <section id="cuartaSection">
+            <div id="cSectionFondo"> </div>
+            <div id="cSectionContent">
+                <div>
+                    <div class="tituloBlanco">Testimonials</div>
+                    <h1 class="hBlanco">We Have Many Satisfied Clients Say About Us</h1>
+                </div>
+                <div id="commentsContainer">
+                    <div class="commentBox">
+                        <p>&#8220;</p>
+                        <span class="rating"><span
+                                class="ratingYellow">&#9733;&#9733;&#9733;&#9733;</span>&#9733;</span>
+                        <div class="cSectionText">
+                            “Makin their way the only way they know how that&#96;s just a little bit more than the law
+                            will
+                            allow these happy days
+                            are you. leads a rag tag fugitive fleet on a lonely”
+                        </div>
+                        <p>Malika Moria</p>
+                        <div class="cSectionImg"><img src="img/author-1.webp" alt="foto Cliente"></div>
+                    </div>
+
+                    <div class="commentBox">
+                        <p>&#8220;</p>
+                        <span class="rating"><span
+                                class="ratingYellow">&#9733;&#9733;&#9733;&#9733;&#9733;</span></span>
+                        <div class="cSectionText">
+                            “Makin their way the only way they know how that&#96;s just a little bit more than the law
+                            will
+                            allow these happy days
+                            are you. leads a rag tag fugitive fleet on a lonely”
+                        </div>
+                        <p>Malika Moria</p>
+                        <div class="cSectionImg"><img src="img/author-2.webp" alt="foto Cliente"></div>
+                    </div>
+
+                    <div class="commentBox">
+                        <p>&#8220;</p>
+                        <span class="rating"><span
+                                class="ratingYellow">&#9733;&#9733;&#9733;&#9733;</span>&#9733;</span>
+                        <div class="cSectionText">
+                            “Makin their way the only way they know how that&#96;s just a little bit more than the law
+                            will
+                            allow these happy days
+                            are you. leads a rag tag fugitive fleet on a lonely”
+                        </div>
+                        <p>Malika Moria</p>
+                        <div class="cSectionImg"><img src="img/author-3.webp" alt="foto Cliente"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- QUINTA SECTION -->
+        <section>
+            <div class="qSectionCenter">
+                <div id="qSectionTitle">
+                    <div class="tituloGris">Projects</div>
+                    <h1 class="hNegro">Our Latest Projects Check Now Dears</h1>
+                </div>
+            </div>
+            <div id="qSectionPanel">
+                <ul>
+                    <li>All Cases</li>
+                    <li>Houses</li>
+                    <li>Interiors</li>
+                    <li>Modern Bridge</li>
+                    <li>Buildings</li>
+                </ul>
+            </div>
+            <div class="qSectionCenter">
+                <div id="qSectionImg">
+                    <img src="img/4a-370x370.webp" alt="foto Estructura">
+                    <img src="img/5a-370x370.webp" alt="foto Estructura">
+                    <img src="img/7a-370x370.webp" alt="foto Estructura">
+                    <img src="img/8a-370x370.webp" alt="foto Estructura">
+                    <img src="img/9a-370x370.webp" alt="foto Estructura">
+                    <img src="img/10a-370x370.webp" alt="foto Estructura">
+                </div>
+            </div>
+            <div class="qSectionCenter">
+                <div id="qSectionMore">
+                    <span>If your want to more project then you</span>
+                    <a href="#">Click Here Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="flecha"><a href="#">&#8593;</a></div>
+
+    <!-- FOOTEEER -->
+    <footer>
+        <div>
+            <div id="footerContent">
+                <div id="footerFondo">
+                    <div></div>
+                </div>
+                <div id="footerLogo">
+                    <div id="footerImg"><img src="img/logoBlanco.webp" id="imgLogo"></div>
+                    <p>Manzil is an exclusive multi-purpose 100% responsive Template Theme with powerful features.</p>
+                    <p>Simple and well-structured coding, high quality and flexible layout, scalable features along with
+                        color schemes to create tailor-cut websites.</p>
+                    <div id="footerRedes">
+                        <ul id="ulFooter">
+                            <li><a href="https://es-es.facebook.com/"><img src="img/icon-facebook.webp"
+                                        alt="facebook"></a>
+                            </li>
+                            <li><a href="https://es.linkedin.com/"><img src="img/icon-linkedin.webp" alt="linkedin"></a>
+                            </li>
+                            <li><a href="https://twitter.com/"><img src="img/icon-twitter.webp" alt="twitter"></a></li>
+                            <li><a href="https://www.skype.com/es/"><img src="img/icon-skype.webp" alt="skype"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="footerLinks">
+                    <h1>Useful Links</h1>
+                    <ul id="ulLinks">
+                        <li><a href="#">-- About Us</a></li>
+                        <li><a href="#">-- Faq's</a></li>
+                        <li><a href="#">-- Our Team</a></li>
+                        <li><a href="#">-- Services</a></li>
+                        <li><a href="#">-- Testimonial</a></li>
+                        <li><a href="#">-- Blog Classic</a></li>
+                        <li><a href="#">-- Interior Design</a></li>
+                        <li><a href="#">-- Price</a></li>
+                        <li><a href="#">-- Team Detail</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div id="footerContact">
+                        <h1>Contact Us</h1>
+                        <div id="footerContactDiv">
+                            <ul>
+                                <li>
+                                    <img src="img/globe-4-48.webp">
+                                    <span class="arriba"><strong>25BT, San Rojartar</strong></span>
+                                    <span class="abajo">New York, United States</span>
+                                </li>
+
+                                <li>
+                                    <img src="img/email-48.webp">
+                                    <span class="arriba"><strong>Send Your Mail At</strong></span>
+                                    <span class="abajo">info@example.com</span>
+                                </li>
+
+                                <li>
+                                    <img src="img/clock-5-48.webp">
+                                    <span class="arriba"><strong>Working Hours</strong></span>
+                                    <span class="abajo">Mon-Sat:9.30am To 7:00pm</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footerCopy">
+                <span id="spanLeft">&copy All rights reserver by <strong>ivanM</strong></span>
+                <span id="spanRight">
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy & Policy</a></li>
+                        <li><a href="#">Join Us</a></li>
+                        <li><a href="#">Need Help?</a></li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        let ulMenu = document.querySelector('#ulMenu');
+
+        $(".hide").on('click', function () {
+            $("nav ul").toggle('slow');
+        })
+
+
+        window.addEventListener("resize", function (event) {
+
+            var anchoVentana = window.innerWidth;
+
+            if (anchoVentana > 768) {
+                let ulMenu = document.querySelector('#ulMenu');
+                ulMenu.style.display = '';
+
+
+            }
+
+        })
+    </script>
+</body>
+
+</html>
